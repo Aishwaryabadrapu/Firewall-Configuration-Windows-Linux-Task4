@@ -8,10 +8,13 @@ This project demonstrates how to configure and test basic firewall rules on a Wi
 Configure a firewall rule to block inbound TCP traffic.
 Test connectivity to verify rule enforcement.
 Remove the rule to restore original settings.
+
 🧰 Tools Used
 Windows Defender Firewall with Advanced Security
+
 Windows PowerShell
 🚀 Steps Performed
+
 1️⃣ Open Firewall Configuration Tool
 Opened Windows Defender Firewall with Advanced Security from the Start menu.
 
@@ -26,6 +29,7 @@ Protocol: TCP
 Port: 23
 Action: Block the connection
 Profiles: Domain, Private, Public
+
 4️⃣ Tested the Rule Using PowerShell
 Command used to test connectivity:
 
